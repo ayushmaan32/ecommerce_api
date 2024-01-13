@@ -14,7 +14,7 @@ This repository contains the source code for an e-commerce API built with Node.j
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/e-commerce-api.git
+   git clone https://github.com/ayushmaan32/ecommerce_api
    ```
 
 ## Installation
