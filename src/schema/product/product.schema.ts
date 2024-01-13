@@ -11,6 +11,15 @@ export class Product extends Document {
 
   @Prop({ required: true })
   price: number;
+
+  @Prop({ required: true })
+  sku: string;
+
+  @Prop({ default: 0 })
+  additionalCost: number;
+
+  @Prop({ default: 0 })
+  stockCount: number;
 }
 
 export const ProductSchema = SchemaFactory.createForClass(Product);
